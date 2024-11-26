@@ -22,7 +22,7 @@
                     </span>
                </div>
                 <div class="login">
-                    <a href="#" class="login">Login</a>
+                    <a href="my-admin/login.php" class="login">Login</a>
                     <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </div>
         </nav>

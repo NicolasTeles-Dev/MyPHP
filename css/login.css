@@ -1,0 +1,121 @@
+/* Importação da fonte */
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  font-family: "Inter Tight", sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.linha1 {
+  position: absolute;
+  background-color: gray;
+  left: 10%;
+  width: 4px;
+  height: 1920px;
+  z-index: 999;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.navbar .logo {
+  color: #8a2be2;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 30px;
+}
+.iconCriarProjeto {
+  position: absolute;
+  top: 88%;
+  left: 3%;
+  height: 70px;
+  width: 70px;
+  border: #8a2be2 solid 4px;
+  border-radius: 50%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+.iconCriarProjeto:hover {
+  background-color: #8a2be2;
+  box-shadow: 0 0 10px rgba(138, 43, 178, 0.5);
+}
+.iconCriarProjeto:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(138, 43, 178, 1);
+}
+.plusIcon {
+  color: #8a2be2;
+  font-size: 34px;
+  transition: color 0.3s;
+}
+.iconCriarProjeto:hover .plusIcon {
+  color: white;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.form-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #8a2be2;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.form-title {
+  font-size: 24px;
+  color: #8a2be2;
+  margin-bottom: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form label {
+  font-size: 14px;
+  text-align: left;
+  color: #8a2be2;
+  font-weight: bold;
+}
+.form input {
+  padding: 10px;
+  font-size: 14px;
+  border: 2px solid #8a2be2;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+.form input:focus {
+  border-color: #8a2be2;
+}
+.form-button {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background: #8a2be2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+.form-button:hover {
+  background: #6f239d;
+  box-shadow: 0 0 10px rgba(138, 43, 178, 0.5);
+}
